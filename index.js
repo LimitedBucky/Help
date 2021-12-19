@@ -30,13 +30,6 @@ module.exports = function({bot, commands}){
 **!dm_channel_id** - Prints the ID of the current DM channel with the user
 **!message** <number> - Shows the DM channel ID, DM message ID, and message link of the specified user reply. <number> is the message number shown in front of staff replies in the thread channel.
 **!newthread** <userID> - Open a Modmail thread with a user.
-**!is_blocked <userID>** - Check if the specified user is blocked.
-
-
-
-
-
-``
-`);
+**!is_blocked <userID>** - Check if the specified user is blocked.`);
   });
 }
